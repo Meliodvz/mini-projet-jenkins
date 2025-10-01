@@ -118,7 +118,7 @@ pipeline {
                 }
             }
         }
-        post{
+        post {
             always {
                 script
                 {
