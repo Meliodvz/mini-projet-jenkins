@@ -5,7 +5,7 @@ pipeline {
         IMAGE_TAG = 'v1'
         DOCKER_PASSWORD = credentials('docker-password')
         DOCKER_USERNAME = 'yvnnis'
-        HOST_PORT = 8080
+        HOST_PORT = 80
         CONTAINER_PORT = 80
         IP_DOCKER = '172.17.0.1'
     }
