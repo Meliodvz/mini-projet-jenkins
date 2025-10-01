@@ -1,7 +1,7 @@
-@Library('ybrenala-shared-library')
+@Library('ybrenala-shared-library')_
 
 pipeline {
-    environment{
+    environment {
         IMAGE_NAME = 'webapp'
         IMAGE_TAG = 'v1'
         DOCKER_PASSWORD = credentials('docker-password')
